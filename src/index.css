@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Quicksand:wght@500&display=swap");
+.body {
+  font-family: Quicksand;
+  color: aliceblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.second {
+  display: flex;
+  margin-left: 5 rem;
+  background-color: #333;
+  color: aliceblue;
+}
+
+label {
+  padding: 0.3rem;
+  white-space: nowrap;
+}
+li {
+  width: 5rem;
+}
+input {
+  border-radius: 10px;
+  width: 25rem;
+}
+button {
+  transition: all 0.4s ease;
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: grey;
+  margin-bottom: 0.2rem;
+  padding: 0.3rem;
+  padding-top: 0.7rem;
+  margin: 0.7rem;
+  margin-right: 2rem;
+  box-shadow: 0px 9px 26px 0px rgba(0, 0, 0, 0.75);
+  white-space: nowrap;
+}
+button:hover {
+  color: white;
+  background-image: linear-gradient(75 deg, greenyellow, grey);
 }
